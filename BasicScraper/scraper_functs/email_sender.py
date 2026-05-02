@@ -23,9 +23,9 @@ def send_emails(port, sender_gmail, receiver_gmail, s_password, results, test):
         "zone3": []
     }
     zone_labels = {
-        "zone1": "Listings Within 3 hour distance",
-        "zone2": "Listings Within 8 hour distance",
-        "zone3": "All other Listings"
+        "zone1": "Distance Label for zone 1",
+        "zone2": "Distance Label for zone 2",
+        "zone3": "Distance Label for zone 3"
     }
 
     for result in results:

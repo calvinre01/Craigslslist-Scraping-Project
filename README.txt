@@ -2,6 +2,7 @@ Overview:
 	This project is a python based automaton tool that scrapes Craigslist listings based on configurable search queries and locations,
 	filters them for relevance, and sends a structured email summary of the results. Currently configured to run on a AWS E2C instance.
 	It is designed to reduce manual searching by automatically identifying new listings and delivering them in a clean, readable format.
+	The config needs to be filled in for it to function properly, for this public version only examples are given.
 
 Key Features:
 	Automated Web Scraping: The program scrapes Craigslist using requests and BeautifulSoup, and it supports multiple search queries and geographic regions
