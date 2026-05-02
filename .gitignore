@@ -1,0 +1,6 @@
+# Ignore the virtual environment
+env/
+venv/
+
+# ignore sample craigslist page
+craigslist_page.html
